@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperture Conversion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="main">
+    <h1>तापक्रम रूपान्तरण<br>(Temperature Conversion)</h1>
+    <div id="container">
+      <div action="" onclick="return validateForm()"></div>
+      <div class="input-div">
+        <label> Celsius:</label><br> 
+        
+        <Input type="number" placeholder="यहाँ सेलसियसमा लेख्नुहोस् " class="inp" id="cel">
+        </Input>
+        <label class="eq">&#8651;</label>
+
+      </div>
+      <div class="input-div">
+        <label>Fahrenheit:</label><br>
+        <input type="number" placeholder="फरेनहाइट अंक लेख्नुहोस्" class="inp" id="far"></div>
+        <div> <input type="reset" onclick = "clearText()" class="reset"></div>
+      </div> 
+     
+    </div>
+    
+   <script src="script.js"></script>
+  </section>
+</body>
+</html>
