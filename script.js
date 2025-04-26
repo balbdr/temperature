@@ -22,3 +22,14 @@ far.addEventListener('input',function(){
     let c=(f-32)*5/9;
     cel.value =c;
 })
+
+function changecolor(){
+  let  red = Math.floor(Math.random()*255);
+  let green = Math.floor(Math.random()*255);
+  let blue = Math.floor(Math.random()*255);
+
+  const randomColor = `rgb(${red},${green},${blue})`;
+  document.body.style.backgroundColor = randomColor;
+}
+changecolor();
+
