@@ -18,7 +18,8 @@ h1{
     text-align: center;
    /* background: linear-gradient(135deg,#9dfe00,#5b548a);*/
     min-height: 90vh;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
     background-image:url("ima/mo.png");
     background-repeat:no-repeat;
     background-position: center;
