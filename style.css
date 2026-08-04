@@ -55,6 +55,7 @@ label{
    text-align: center;
    border-radius: 10px;
    cursor: pointer;
+  background-color: rgb(139, 237, 250);
     
 }
 .inp:hover{
@@ -70,6 +71,7 @@ label.eq{
     color: rgb(245, 241, 12);
 }
 .reset{
+    background-color: rgb(159, 253, 122);
     margin: 25px;
     width: 100px;
     padding: 5px;
