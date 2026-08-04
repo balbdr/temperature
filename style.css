@@ -67,7 +67,7 @@ label{
 label.eq{
     font-size: 25px;
     font-weight: bold;
-    color: red;
+    color: rgb(245, 241, 12);
 }
 .reset{
     margin: 25px;
