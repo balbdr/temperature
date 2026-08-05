@@ -10,8 +10,10 @@ boby{
     padding: 10px 10px;
     
 }  */
-h1{
+h2{
     text-align: center;
+    
+    
 }
 
 .main{
@@ -41,6 +43,7 @@ h1{
 
 label{
     color: rgb(245, 234, 234);
+    font-style: italic;
 }
 .input-div{
     display: inline-block;
@@ -71,7 +74,7 @@ label.eq{
     color: rgb(245, 241, 12);
 }
 .reset{
-    background-color: rgb(159, 253, 122);
+    background-color: rgb(253, 122, 214);
     margin: 25px;
     width: 100px;
     padding: 5px;
@@ -80,4 +83,8 @@ label.eq{
 }
 .reset:hover{
     background-color: rgb(238, 171, 204);
+}
+.clock{
+    text-align: center;
+    color: red;
 }
