@@ -71,7 +71,7 @@ label{
 label.eq{
     font-size: 25px;
     font-weight: bold;
-    color: rgb(245, 241, 12);
+    color: rgb(0, 0, 0);
 }
 .reset{
     background-color: rgb(253, 122, 214);
@@ -87,4 +87,5 @@ label.eq{
 .clock{
     text-align: center;
     color: red;
+    font-weight: bold ;
 }
